@@ -57,14 +57,14 @@ The in-game help is also published on the official site. The guides are written 
 
 | Guide | Open |
 | --- | --- |
-| Game guide — cards, hands, rounds, the shop, the four decks | [blosharper.com/#/guide/game-guide](https://blosharper.com/#/guide/game-guide) · [markdown](https://blosharper.com/docs/manuals/GAME_GUIDE.md) |
-| How to play — never seen Hwatu? start here | [blosharper.com/#/guide/how-to-play](https://blosharper.com/#/guide/how-to-play) · [markdown](https://blosharper.com/docs/manuals/HOW_TO_PLAY.md) |
-| Skills guide — the 100 trick skills and what they do | [markdown](https://blosharper.com/docs/manuals/SKILLS_GUIDE.md) |
-| Boss battles and penalties | [markdown](https://blosharper.com/docs/manuals/BOSS_BATTLE.md) |
-| Strategy guide | [markdown](https://blosharper.com/docs/manuals/STRATEGY_GUIDE.md) |
-| Keyboard shortcuts | [markdown](https://blosharper.com/docs/manuals/KEYBOARD_SHORTCUTS.md) |
-| UI / UX guide | [markdown](https://blosharper.com/docs/manuals/UI_UX_GUIDE.md) |
-| Skill prices · unlock conditions | [prices](https://blosharper.com/docs/manuals/SKILLS_PRICING.md) · [unlocks](https://blosharper.com/docs/manuals/SKILLS_UNLOCK.md) |
+| Game guide — cards, hands, rounds, the shop, the four decks | [blosharper.com/#/guide/game-guide](https://blosharper.com/#/guide/game-guide) · [GitHub](https://github.com/Blosharper/blosharper.com/blob/main/teaser/docs/manuals/GAME_GUIDE.md) |
+| How to play — never seen Hwatu? start here | [blosharper.com/#/guide/how-to-play](https://blosharper.com/#/guide/how-to-play) · [GitHub](https://github.com/Blosharper/blosharper.com/blob/main/teaser/docs/manuals/HOW_TO_PLAY.md) |
+| Skills guide — the 100 trick skills and what they do | [GitHub](https://github.com/Blosharper/blosharper.com/blob/main/teaser/docs/manuals/SKILLS_GUIDE.md) |
+| Boss battles and penalties | [GitHub](https://github.com/Blosharper/blosharper.com/blob/main/teaser/docs/manuals/BOSS_BATTLE.md) |
+| Strategy guide | [GitHub](https://github.com/Blosharper/blosharper.com/blob/main/teaser/docs/manuals/STRATEGY_GUIDE.md) |
+| Keyboard shortcuts | [GitHub](https://github.com/Blosharper/blosharper.com/blob/main/teaser/docs/manuals/KEYBOARD_SHORTCUTS.md) |
+| UI / UX guide | [GitHub](https://github.com/Blosharper/blosharper.com/blob/main/teaser/docs/manuals/UI_UX_GUIDE.md) |
+| Skill prices · unlock conditions | [prices](https://github.com/Blosharper/blosharper.com/blob/main/teaser/docs/manuals/SKILLS_PRICING.md) · [unlocks](https://github.com/Blosharper/blosharper.com/blob/main/teaser/docs/manuals/SKILLS_UNLOCK.md) |
 
 ### Under the hood
 
@@ -77,8 +77,9 @@ The game repository is private. The pieces of its build and platform tooling tha
 | 1 | [**byteguard**](https://github.com/Blosharper/byteguard) | `npm i -D vite-plugin-byteguard` | Encodes JS bundles into a binary format for casual source-code protection. Not encryption, not DRM — it raises the cost of reading a shipped bundle from *open the file* to *reverse-engineer the loader*. Bundler-agnostic core `byteguard` + a Vite adapter |
 | 2 | [**headerless**](https://github.com/Blosharper/headerless) | `npm i -D vite-plugin-headerless` | Strips the format-defining header fields from binary assets (PNG, JPEG, WebP) at build time and puts them back in memory at runtime. The removed bytes are a per-file key, so publishing the algorithm does not weaken it. Core `headerless` + a Vite adapter |
 | 3 | [**stovesdk.js**](https://github.com/Blosharper/stovesdk.js) | `npm i stovesdk.js` | Unofficial Node.js / Electron bindings for the STOVE PC SDK (N-API): initialize, callback pump, ownership, achievements and stats, login identity. Windows x64, with the prebuild in the package; the SDK itself is yours to download |
+| 4 | [**l10n-c**](https://github.com/Blosharper/l10n-c) | `npm i -D l10n-c vite-plugin-l10n-c` | Locale file editing for people and coding agents: search, update, rename, delete and replace keys across every locale in one command; checks missing, nested, duplicate and unused keys. Core CLI `l10n-c` + a Vite dev-server translation manager with inline editing and CSV export |
 
-All three are MIT licensed and are dogfooded in the shipped game.
+All four are MIT licensed and are dogfooded in the shipped game.
 
 ### Credits
 
