@@ -10,9 +10,9 @@
 </p>
 
 <p align="center">
-  <a href="#where-to-play"><b>▶ Play the game</b></a> <sub>Steam · STOVE · free demo</sub>
+  <a href="#user-content-where-to-play"><b>▶ Play the game</b></a> <sub>Steam · STOVE · free demo</sub>
   &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="#under-the-hood"><b>⚙ Explore the tools</b></a> <sub>four open-source build and platform tools</sub>
+  <a href="#user-content-under-the-hood"><b>⚙ Explore the tools</b></a> <sub>four open-source build and platform tools</sub>
 </p>
 
 <p align="center">
