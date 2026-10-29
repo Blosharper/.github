@@ -51,7 +51,7 @@ Don't rely on luck — use illicit "cheat" skills to rig the deck and survive a 
 
 <p align="center">
   <a href="https://blosharper.com/">blosharper.com</a> &nbsp;·&nbsp;
-  <a href="https://discord.gg/Nf7Ctt9f3">Discord</a> &nbsp;·&nbsp;
+  <a href="https://discord.gg/aJNJypBjKD">Discord</a> &nbsp;·&nbsp;
   <a href="https://x.com/blosharper">X</a> &nbsp;·&nbsp;
   <a href="https://www.youtube.com/@blosharper">YouTube</a> &nbsp;·&nbsp;
   <a href="https://blosharper.com/support.html">Support</a>
