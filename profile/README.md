@@ -10,6 +10,12 @@
 </p>
 
 <p align="center">
+  <a href="#where-to-play"><b>▶ Play the game</b></a> <sub>Steam · STOVE · free demo</sub>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#under-the-hood"><b>⚙ Explore the tools</b></a> <sub>four open-source build and platform tools</sub>
+</p>
+
+<p align="center">
   <img src="./play.webp" alt="One hand of Blosharper: eight Hwatu cards on green felt, five are picked, the score and multiplier climb" width="100%" />
 </p>
 
