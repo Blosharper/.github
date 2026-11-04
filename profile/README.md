@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="#user-content-where-to-play"><b>▶ Play the game</b></a> <sub>Steam · STOVE · free demo</sub>
+  <a href="#user-content-where-to-play"><b>▶ Play the game</b></a> <sub>Steam · STOVE · Google Play · Mac App Store · free demo</sub>
   &nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#user-content-under-the-hood"><b>⚙ Explore the tools</b></a> <sub>four open-source build and platform tools</sub>
 </p>
@@ -29,18 +29,19 @@ Don't rely on luck — use illicit "cheat" skills to rig the deck and survive a 
 『Blosharper（ブロシャーパー）』は韓国の花札で役を組み、各ラウンドの目標スコアを突破するイカサマ師ノワール・ローグライクデッキ構築ゲームです。純粋な運に頼ってはいけません。無慈悲な地下賭博場で隠密な「イカサマ」スキルを組み合わせて借金を返し、残忍なボスたちを打ち破って伝説のイカサマ師として生き残りましょう！
 
 <p align="center">
-  <b>PC · Windows &amp; macOS</b> &nbsp;·&nbsp; <b>7 languages</b> &nbsp;·&nbsp; <b>15+</b> (Korea, GRAC) &nbsp;·&nbsp; Early Access 2026‑06‑24 → <b>1.0 on 2026‑10‑08</b>
+  <b>PC · Windows &amp; macOS · Android</b> &nbsp;·&nbsp; <b>7 languages</b> &nbsp;·&nbsp; <b>15+</b> (Korea, GRAC) &nbsp;·&nbsp; Early Access 2026‑06‑24 → <b>1.0 on 2026‑10‑08</b>
 </p>
 
 ### Where to play
 
-| | Full game | Free demo |
-| :-: | --- | --- |
-| **Steam** | [store.steampowered.com/app/4718270](https://store.steampowered.com/app/4718270/) | [app/4770920](https://store.steampowered.com/app/4770920/) |
-| **STOVE** | [store.onstove.com/ko/games/105719](https://store.onstove.com/ko/games/105719) | [games/105740](https://store.onstove.com/ko/games/105740) |
-<!-- mobile: add these rows only when BOTH stores are public (same-day open).
-| **App Store** | (iOS / macOS link) | — |
-| **Google Play** | (Android link) | — |
+| Store | Full game | Free demo |
+| :--- | :--- | :--- |
+| <a href="https://store.steampowered.com/app/4718270/"><picture><source media="(prefers-color-scheme: dark)" srcset="./logos/steam-color-white.svg"><source media="(prefers-color-scheme: light)" srcset="./logos/steam-color.svg"><img src="./logos/steam-color.svg" alt="Steam" height="24"></picture></a> | [store.steampowered.com/app/4718270](https://store.steampowered.com/app/4718270/) | [app/4770920](https://store.steampowered.com/app/4770920/) |
+| <a href="https://store.onstove.com/ko/games/105719"><picture><source media="(prefers-color-scheme: dark)" srcset="./logos/stove-color-white.svg"><source media="(prefers-color-scheme: light)" srcset="./logos/stove-color.svg"><img src="./logos/stove-color.svg" alt="STOVE" height="24"></picture></a> | [store.onstove.com/ko/games/105719](https://store.onstove.com/ko/games/105719) | [games/105740](https://store.onstove.com/ko/games/105740) |
+| <a href="https://play.google.com/store/apps/details?id=com.firejune.blosharper"><picture><source media="(prefers-color-scheme: dark)" srcset="./logos/google-play-color-white.svg"><source media="(prefers-color-scheme: light)" srcset="./logos/google-play-color.svg"><img src="./logos/google-play-color.svg" alt="Google Play" height="24"></picture></a> | [play.google.com/store/apps/details?id=com.firejune.blosharper](https://play.google.com/store/apps/details?id=com.firejune.blosharper) | — |
+| <a href="https://apps.apple.com/app/blosharper/id6768492528"><picture><source media="(prefers-color-scheme: dark)" srcset="./logos/mac-app-store-color-white.svg"><source media="(prefers-color-scheme: light)" srcset="./logos/mac-app-store-color.svg"><img src="./logos/mac-app-store-color.svg" alt="Mac App Store" height="24"></picture></a> | [apps.apple.com/app/blosharper/id6768492528](https://apps.apple.com/app/blosharper/id6768492528) | — |
+<!-- iOS App Store (uncomment when iOS review clears):
+| <a href="https://apps.apple.com/app/blosharper/id6768492528"><picture><source media="(prefers-color-scheme: dark)" srcset="./logos/app-store-color-white.svg"><source media="(prefers-color-scheme: light)" srcset="./logos/app-store-color.svg"><img src="./logos/app-store-color.svg" alt="App Store" height="24"></picture></a> | [apps.apple.com/app/blosharper/id6768492528](https://apps.apple.com/app/blosharper/id6768492528) | — |
 -->
 
 <p align="center">
@@ -74,7 +75,7 @@ The in-game help is also published on the official site. The guides are written 
 
 ### Under the hood
 
-Blosharper is a **DOM game**: the table, the cards, the score board and the menus are HTML elements styled with CSS, written in TypeScript, built with Vite and shipped as an Electron app on Windows and macOS. The browser's own layout and compositor do the drawing, and the same bundle is the game on every platform it ships to.
+Blosharper is a **DOM game**: the table, the cards, the score board and the menus are HTML elements styled with CSS, written in TypeScript, built with Vite and shipped as an Electron app on Windows and macOS and a Capacitor app on mobile. The browser's own layout and compositor do the drawing, and the same bundle is the game on every platform it ships to.
 
 The game repository is private. The pieces of its build and platform tooling that are useful on their own live here as open source:
 
