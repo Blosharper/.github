@@ -29,7 +29,7 @@ Don't rely on luck — use illicit "cheat" skills to rig the deck and survive a 
 『Blosharper（ブロシャーパー）』は韓国の花札で役を組み、各ラウンドの目標スコアを突破するイカサマ師ノワール・ローグライクデッキ構築ゲームです。純粋な運に頼ってはいけません。無慈悲な地下賭博場で隠密な「イカサマ」スキルを組み合わせて借金を返し、残忍なボスたちを打ち破って伝説のイカサマ師として生き残りましょう！
 
 <p align="center">
-  <b>PC · Windows &amp; macOS · Android</b> &nbsp;·&nbsp; <b>7 languages</b> &nbsp;·&nbsp; <b>15+</b> (Korea, GRAC) &nbsp;·&nbsp; Early Access 2026‑06‑24 → <b>1.0 on 2026‑10‑08</b>
+  <b>PC · Windows &amp; macOS · iOS · Android</b> &nbsp;·&nbsp; <b>7 languages</b> &nbsp;·&nbsp; <b>15+</b> (Korea, GRAC) &nbsp;·&nbsp; Early Access 2026‑06‑24 → <b>1.0 on 2026‑10‑08</b>
 </p>
 
 ### Where to play
@@ -40,9 +40,7 @@ Don't rely on luck — use illicit "cheat" skills to rig the deck and survive a 
 | <a href="https://store.onstove.com/ko/games/105719"><picture><source media="(prefers-color-scheme: dark)" srcset="./logos/stove-color-white.svg"><source media="(prefers-color-scheme: light)" srcset="./logos/stove-color.svg"><img src="./logos/stove-color.svg" alt="STOVE" height="32"></picture></a> | [store.onstove.com/ko/games/105719](https://store.onstove.com/ko/games/105719) | [games/105740](https://store.onstove.com/ko/games/105740) |
 | <a href="https://play.google.com/store/apps/details?id=com.firejune.blosharper"><img src="./badges/google-play.svg" alt="Get it on Google Play" height="40"></a> | [play.google.com/store/apps/details?id=com.firejune.blosharper](https://play.google.com/store/apps/details?id=com.firejune.blosharper) | — |
 | <a href="https://apps.apple.com/app/blosharper/id6768492528"><picture><source media="(prefers-color-scheme: dark)" srcset="./badges/mac-app-store-white.svg"><source media="(prefers-color-scheme: light)" srcset="./badges/mac-app-store-black.svg"><img src="./badges/mac-app-store-black.svg" alt="Download on the Mac App Store" height="40"></picture></a> | [apps.apple.com/app/blosharper/id6768492528](https://apps.apple.com/app/blosharper/id6768492528) | — |
-<!-- iOS App Store (uncomment when iOS review clears):
 | <a href="https://apps.apple.com/app/blosharper/id6768492528"><picture><source media="(prefers-color-scheme: dark)" srcset="./badges/app-store-white.svg"><source media="(prefers-color-scheme: light)" srcset="./badges/app-store-black.svg"><img src="./badges/app-store-black.svg" alt="Download on the App Store" height="40"></picture></a> | [apps.apple.com/app/blosharper/id6768492528](https://apps.apple.com/app/blosharper/id6768492528) | — |
--->
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=MOZFmQFNdLE"><b>▶ Trailer (한국어)</b></a> &nbsp;·&nbsp;
